@@ -37,6 +37,6 @@ bot.sendMessage(msg.chat.id, "\"Le incoerenze, le stravaganze e le follie degli 
 
 
 // shopenauer
-bot.onText(/\/machiavelli/, (msg) => {
-bot.sendMessage(msg.chat.id, "\"Consigliati delle cose che tu dei fare con molti; quello che dipoi vuoi fare conferisci con pochi☕...\"");
+bot.onText(/\/shopenauer/, (msg) => {
+bot.sendMessage(msg.chat.id, "\"Si dovrebbero usare parole ordinarie per dire cose insolite☕...\"");
 });
