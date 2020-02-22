@@ -9,7 +9,10 @@ bot.onText(/\/echo (.+)/, (msg, match) => {
   bot.sendMessage(chatId, resp);
 });
 
-bot.on('hey!', (msg) => {
-  const chatId = msg.chat.id;
-  bot.sendMessage(chatId);
+bot.onText(/\/start/, (msg) => {
+bot.sendMessage(msg.chat.id, "Eccomi, come ti posso aiutare..?");
+});
+
+bot.onText(/\/ciao/, (msg) => {
+bot.sendMessage(msg.chat.id, "hey!");
 });
