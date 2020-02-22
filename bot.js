@@ -7,6 +7,36 @@ bot.onText(/\/start/, (msg) => {
 bot.sendMessage(msg.chat.id, "\"Sono tanto semplici li uomini, e tanto obediscono alle necessità presenti, che colui che inganna troverà sempre chi si lascerà ingannare☕...\"");
 });
 
+            // interazione bot
+
+bot.on('message', (msg) => {
+var Hi = "ciao";
+if (msg.text.toString().toLowerCase().indexOf(Hi) === 0) {
+bot.sendMessage(msg.chat.id,"hey come stai");
+}
+});
+
+bot.on('message', (msg) => {
+var Hi = "bene";
+if (msg.text.toString().toLowerCase().indexOf(Hi) === 0) {
+bot.sendMessage(msg.chat.id,"mi fa piacere");
+}
+});
+
+bot.on('message', (msg) => {
+var Hi = "e tu?";
+if (msg.text.toString().toLowerCase().indexOf(Hi) === 0) {
+bot.sendMessage(msg.chat.id,"meditando sull'esistenza...");
+}
+});
+
+bot.on('message', (msg) => {
+var Hi = "e tu?";
+if (msg.text.toString().toLowerCase().indexOf(Hi) === 0) {
+bot.sendMessage(msg.chat.id,"meditando sull'esistenza...");
+}
+});
+
             // comandi basici bot
 
 // ciao
