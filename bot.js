@@ -10,29 +10,22 @@ bot.sendMessage(msg.chat.id, "\"Sono tanto semplici li uomini, e tanto obediscon
             // interazione bot
 
 bot.on('message', (msg) => {
-var Hi = "ciao";
-if (msg.text.toString().toLowerCase().indexOf(Hi) === 0) {
+var ciao = "ciao";
+if (msg.text.toString().toLowerCase().indexOf(ciao) === 0) {
 bot.sendMessage(msg.chat.id,"hey come stai");
 }
 });
 
 bot.on('message', (msg) => {
-var Hi = "bene";
-if (msg.text.toString().toLowerCase().indexOf(Hi) === 0) {
+var bene = "bene";
+if (msg.text.toString().toLowerCase().indexOf(bene) === 0) {
 bot.sendMessage(msg.chat.id,"mi fa piacere");
 }
 });
 
 bot.on('message', (msg) => {
-var Hi = "e tu?";
-if (msg.text.toString().toLowerCase().indexOf(Hi) === 0) {
-bot.sendMessage(msg.chat.id,"meditando sull'esistenza...");
-}
-});
-
-bot.on('message', (msg) => {
-var Hi = "e tu?";
-if (msg.text.toString().toLowerCase().indexOf(Hi) === 0) {
+var tu = "e tu?";
+if (msg.text.toString().toLowerCase().indexOf(tu) === 0) {
 bot.sendMessage(msg.chat.id,"meditando sull'esistenza...");
 }
 });
