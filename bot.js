@@ -18,3 +18,25 @@ bot.sendMessage(msg.chat.id, "hey!");
 bot.onText(/\/machiavelli/, (msg) => {
 bot.sendMessage(msg.chat.id, "\"Consigliati delle cose che tu dei fare con molti; quello che dipoi vuoi fare conferisci con pochi☕...\"");
 });
+
+// platone
+bot.onText(/\/machiavelli/, (msg) => {
+bot.sendMessage(msg.chat.id, "\"Consigliati delle cose che tu dei fare con molti; quello che dipoi vuoi fare conferisci con pochi☕...\"");
+});
+
+// cartesio
+bot.onText(/\/machiavelli/, (msg) => {
+bot.sendMessage(msg.chat.id, "\"Consigliati delle cose che tu dei fare con molti; quello che dipoi vuoi fare conferisci con pochi☕...\"");
+});
+
+
+// freud
+bot.onText(/\/machiavelli/, (msg) => {
+bot.sendMessage(msg.chat.id, "\"Consigliati delle cose che tu dei fare con molti; quello che dipoi vuoi fare conferisci con pochi☕...\"");
+});
+
+
+// shopenauer
+bot.onText(/\/machiavelli/, (msg) => {
+bot.sendMessage(msg.chat.id, "\"Consigliati delle cose che tu dei fare con molti; quello che dipoi vuoi fare conferisci con pochi☕...\"");
+});
