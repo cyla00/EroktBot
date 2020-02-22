@@ -31,8 +31,8 @@ bot.sendMessage(msg.chat.id, "\"Se vuoi essere un vero cercatore della verità, 
 
 
 // freud
-bot.onText(/\/machiavelli/, (msg) => {
-bot.sendMessage(msg.chat.id, "\"Consigliati delle cose che tu dei fare con molti; quello che dipoi vuoi fare conferisci con pochi☕...\"");
+bot.onText(/\/freud/, (msg) => {
+bot.sendMessage(msg.chat.id, "\"Le incoerenze, le stravaganze e le follie degli uomini potrebbero essere viste in una luce analoga alle loro perversioni, accettando le quali gli uomini riescono a evitare le rimozioni☕...\"");
 });
 
 
