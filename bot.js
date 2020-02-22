@@ -21,12 +21,12 @@ bot.sendMessage(msg.chat.id, "\"Consigliati delle cose che tu dei fare con molti
 
 // platone
 bot.onText(/\/platone/, (msg) => {
-bot.sendMessage(msg.chat.id, "\"“È questo che voleva dire Protagora quando sosteneva che l'uomo è la misura di tutte le cose, e cioè che per me i fatti sono tali quali appaiono a me, e per te quali appaiono a te.”☕...\"");
+bot.sendMessage(msg.chat.id, "\"È questo che voleva dire Protagora quando sosteneva che l'uomo è la misura di tutte le cose, e cioè che per me i fatti sono tali quali appaiono a me, e per te quali appaiono a te☕...\"");
 });
 
 // cartesio
-bot.onText(/\/machiavelli/, (msg) => {
-bot.sendMessage(msg.chat.id, "\"Consigliati delle cose che tu dei fare con molti; quello che dipoi vuoi fare conferisci con pochi☕...\"");
+bot.onText(/\/cartesio/, (msg) => {
+bot.sendMessage(msg.chat.id, "\"Se vuoi essere un vero cercatore della verità, è necessario che almeno una volta nella tua vita tu dubiti, per quanto possibile, di tutte le cose☕...\"");
 });
 
 
