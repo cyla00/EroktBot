@@ -73,7 +73,13 @@ bot.sendMessage(msg.chat.id, "hey!");
 });
 
 // chaos
-bot.onText(/\/chaos/, (msg) => {
+bot.onText(/\/botpic/, (msg) => {
 bot.sendPhoto(msg.chat.id,"https://images.saatchiart.com/saatchi/986181/art/7357769/6426975-TPPKZPAP-7.jpg" );
+
+});
+
+bot.onText(/\/chaos/, (msg) => {
+
+bot.sendPhoto(msg.chat.id,"https://www.artweek.com/sites/default/files/styles/700/public/artist-artwork/chaos1.jpg?itok=88qhw7J6",{caption : "\"Non piangere perché è finita. \nSorridi perché è successo☕...\""} );
 
 });
