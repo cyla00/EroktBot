@@ -30,36 +30,44 @@ bot.sendMessage(msg.chat.id,"meditando sull'esistenza...");
 }
 });
 
+bot.on('message', (msg) => {
+var tu = "machiavelli";
+if (msg.text.toString().toLowerCase().indexOf(tu) === 0) {
+bot.sendMessage(msg.chat.id,"\"Consigliati delle cose che tu dei fare con molti; quello che dipoi vuoi fare conferisci con pochi☕...\"");
+}
+});
+
+bot.on('message', (msg) => {
+var tu = "platone";
+if (msg.text.toString().toLowerCase().indexOf(tu) === 0) {
+bot.sendMessage(msg.chat.id,"\"È questo che voleva dire Protagora quando sosteneva che l'uomo è la misura di tutte le cose, e cioè che per me i fatti sono tali quali appaiono a me, e per te quali appaiono a te☕...\"");
+}
+});
+
+bot.on('message', (msg) => {
+var tu = "cartesio";
+if (msg.text.toString().toLowerCase().indexOf(tu) === 0) {
+bot.sendMessage(msg.chat.id,"\"Se vuoi essere un vero cercatore della verità, è necessario che almeno una volta nella tua vita tu dubiti, per quanto possibile, di tutte le cose☕...\"");
+}
+});
+
+bot.on('message', (msg) => {
+var tu = "freud";
+if (msg.text.toString().toLowerCase().indexOf(tu) === 0) {
+bot.sendMessage(msg.chat.id,"\"Le incoerenze, le stravaganze e le follie degli uomini potrebbero essere viste in una luce analoga alle loro perversioni, accettando le quali gli uomini riescono a evitare le rimozioni☕...\"");
+}
+});
+
+bot.on('message', (msg) => {
+var tu = "shopenauer";
+if (msg.text.toString().toLowerCase().indexOf(tu) === 0) {
+bot.sendMessage(msg.chat.id,"\"Si dovrebbero usare parole ordinarie per dire cose insolite☕...\"");
+}
+});
+
             // comandi basici bot
 
 // ciao
 bot.onText(/\/ciao/, (msg) => {
 bot.sendMessage(msg.chat.id, "hey!");
-});
-
-// machiavelli
-bot.onText(/\/machiavelli/, (msg) => {
-bot.sendMessage(msg.chat.id, "\"Consigliati delle cose che tu dei fare con molti; quello che dipoi vuoi fare conferisci con pochi☕...\"");
-});
-
-// platone
-bot.onText(/\/platone/, (msg) => {
-bot.sendMessage(msg.chat.id, "\"È questo che voleva dire Protagora quando sosteneva che l'uomo è la misura di tutte le cose, e cioè che per me i fatti sono tali quali appaiono a me, e per te quali appaiono a te☕...\"");
-});
-
-// cartesio
-bot.onText(/\/cartesio/, (msg) => {
-bot.sendMessage(msg.chat.id, "\"Se vuoi essere un vero cercatore della verità, è necessario che almeno una volta nella tua vita tu dubiti, per quanto possibile, di tutte le cose☕...\"");
-});
-
-
-// freud
-bot.onText(/\/freud/, (msg) => {
-bot.sendMessage(msg.chat.id, "\"Le incoerenze, le stravaganze e le follie degli uomini potrebbero essere viste in una luce analoga alle loro perversioni, accettando le quali gli uomini riescono a evitare le rimozioni☕...\"");
-});
-
-
-// shopenauer
-bot.onText(/\/shopenauer/, (msg) => {
-bot.sendMessage(msg.chat.id, "\"Si dovrebbero usare parole ordinarie per dire cose insolite☕...\"");
 });
