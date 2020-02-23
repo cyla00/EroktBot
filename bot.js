@@ -71,3 +71,9 @@ bot.sendMessage(msg.chat.id,"\"Si dovrebbero usare parole ordinarie per dire cos
 bot.onText(/\/ciao/, (msg) => {
 bot.sendMessage(msg.chat.id, "hey!");
 });
+
+// chaos
+bot.onText(/\/chaos/, (msg) => {
+bot.sendPhoto(msg.chat.id,"https://images.saatchiart.com/saatchi/986181/art/7357769/6426975-TPPKZPAP-7.jpg" );
+
+});
