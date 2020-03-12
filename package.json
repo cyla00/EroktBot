@@ -1,0 +1,24 @@
+{
+  "name": "EroktBot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "telegram-node-bot": "^4.0.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cyla00/EroktBot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cyla00/EroktBot/issues"
+  },
+  "homepage": "https://github.com/cyla00/EroktBot#readme"
+}
