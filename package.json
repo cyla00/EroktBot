@@ -1,26 +1,7 @@
 {
-  "name": "EroktBot",
-  "version": "1.0.0",
-  "description": "",
-  "main": "main.js",
   "dependencies": {
+    "firebase": "^7.11.0",
     "node-telegram-bot-api": "^0.40.0",
-    "telegraf": "^3.36.0",
-    "telegram-node-bot": "^4.0.5"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cyla00/EroktBot.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/cyla00/EroktBot/issues"
-  },
-  "homepage": "https://github.com/cyla00/EroktBot#readme"
+    "open-graph-scraper": "^3.6.2"
+  }
 }
