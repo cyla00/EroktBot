@@ -1,7 +1,12 @@
 
 const TelegramBot = require('node-telegram-bot-api');
-const ogs = require('open-graph-scraper');
-const firebase = require('firebase');
 const settings = require("./settings.json");
 const token = settings.token;
 const bot  = new TelegramBot(token, {polling:true});
+
+bot.onText(/\/echo(.+)/, (msg, match) => {
+  const chatId = msg.chat.id;
+  const resp = match[1];
+  bot.sendMessage(chatId, resp);
+})
+bot.on("polling_error", (err) => console.log(err));
